@@ -22,8 +22,8 @@
     color: ;
 } */
 
-.herotext .header-illustration img {
-    flex-direction: row-reverse;
+.hero-lady img {
+    width: 450%;
 }
 
 .header-illustration img {

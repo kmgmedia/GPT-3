@@ -22,6 +22,10 @@
     color: ;
 } */
 
+.herotext .header-illustration img {
+    flex-direction: row-reverse;
+}
+
 .header-illustration img {
     width: 200%;
 }

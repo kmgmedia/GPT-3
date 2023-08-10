@@ -28,6 +28,8 @@
     background-color: #042C54;
 }
 
+
+
 /* .box-session-1 p {
     padding-left: 54%;
 } */
@@ -69,7 +71,7 @@
 /* what is GPT-3 session */
 
 .what-is {
-    padding-right: 30%;
+    padding-left: 5%;
     padding-top: 3%;
 }
 
@@ -82,3 +84,66 @@
     padding: 10px;
 }
 
+.box-session-2 h2 {
+    padding-right: 65%;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+.box-session-2 p {
+    padding-left: 85%;
+}
+
+.text-lg-start {
+    padding-top: 5%;
+    margin-left: 5%;
+}
+
+.active {
+    padding-top: 5%;
+}
+
+.text-lg-start h3 {
+    padding-bottom: 15%;
+}
+
+.text-lg-start p {
+    padding-bottom: 10%;
+}
+
+
+/* 5 Cards sessions */
+.card-columns {
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 5%;
+}
+
+.card-title {
+    padding-right: 35%;
+}
+
+.card-body {
+    background-color: #042C54;
+    color: aliceblue;
+}
+
+.card-title-1 {
+    padding-bottom: 47%;
+}
+
+.card-title-1 {
+    padding-right: 45%;
+}
+
+/* big button session */
+
+.hero-btn-all {
+    padding-top: 5%;
+}
+
+.a-lot {
+    padding-top: 2%;
+    padding-right: 30%;
+    font-weight: 700;
+}

@@ -63,17 +63,36 @@
     border-radius: 10%;
 }
 
+.btn-sign-up {
+    outline: none;
+    border: 0;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 13px 45px;
+    border-radius: 3px;
+    background-color: #FF4820;
+    color: azure;
+}
+
 .btn-get-started {
     outline: none;
     border: 0;
     box-shadow: none;
     cursor: pointer;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 600;
     padding: 15px 25px;
     border-radius: 3px;
     background-color: #FF4820;
     color: azure;
+}
+
+.btn-sign-in {
+    padding: 13px 25px;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 /* end top/upper session */
@@ -118,11 +137,13 @@
 }
 
 
+
 /* what is GPT-3 session */
 
 .what-is {
     padding-left: 5%;
     padding-top: 3%;
+    color: aliceblue;
 }
 
 .box-session-1 .we-so-opinion {
@@ -161,6 +182,9 @@
     padding-bottom: 10%;
 }
 
+.container h3 {
+    color: aliceblue;
+}
 
 /* 5 Cards sessions */
 .card-columns {
@@ -168,6 +192,11 @@
     padding-right: 1%;
     padding-top: 5%;
 }
+
+.card-columns .card {
+    border-radius: 80%;
+}
+
 
 .card-title {
     padding-right: 35%;
@@ -177,6 +206,7 @@
     background-color: #042C54;
     color: aliceblue;
 }
+
 
 .card-title-1 {
     padding-bottom: 47%;
@@ -196,10 +226,8 @@
     padding-top: 20%;
     padding-right: -20%;
     font-weight: 700;
+    text-align: left;
 }
-
-
-
 
 
 

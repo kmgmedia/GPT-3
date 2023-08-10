@@ -49,7 +49,35 @@
 
 .hero-email {
     padding-bottom: 8%;
+    
 }
+
+.hero-email-1 .comment-people {
+    padding-bottom: 30%;
+}
+
+
+
+
+.emll-space .btn-get-started {
+    border-radius: 10%;
+}
+
+.btn-get-started {
+    outline: none;
+    border: 0;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px 25px;
+    border-radius: 3px;
+    background-color: #FF4820;
+    color: azure;
+}
+
+/* end top/upper session */
+
 
 .future-is-now {
     padding-right: 78%;

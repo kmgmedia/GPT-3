@@ -34,17 +34,39 @@
     padding-left: 54%;
 } */
 
+/* top/upper session
+ */
+.herotext h1 {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-weight: 800;
+}
+
+.herotext p {
+    padding-bottom: 5%;
+    font-weight: 500;
+}
+
+.hero-email {
+    padding-bottom: 8%;
+}
+
 .future-is-now {
     padding-right: 78%;
 }
 
 .improving-session {
     padding-left: 54%;
+    /* position: relative; */
 }
 
 .improving-session p {
     padding-left: 45%;
+    /* position: absolute;
+    height: 1px;
+    border-top: 2px solid black; */
 }
+
 
 
 .header-illustration img {
@@ -142,8 +164,23 @@
     padding-top: 5%;
 }
 
-.a-lot {
-    padding-top: 2%;
-    padding-right: 30%;
+.a-lot h1 {
+    padding-top: 20%;
+    padding-right: -20%;
     font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+
+
+
+
 }

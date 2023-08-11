@@ -42,9 +42,19 @@
 /* Buttons Animations */
 
 
-<body> {
+body {
     margin: 0;
 }
+
+/* .firsr-sec{
+    display: flex;
+
+}
+
+.header-illustration img{
+    width: 100%;
+    justify-content: end;
+} */
 
 .row {
     margin: 0 !important;
@@ -54,12 +64,6 @@
 /* .nav-link {
     color: ;
 } */
-
-.box-session-1 {
-    font-size: 16px;
-    color: #81AFDD;
-    background-color: #042C54;
-}
 
 .nav-link {
     padding: 13px 25px;
@@ -71,18 +75,20 @@
 /* top hero session */
 
 .herotext h1 {
-    padding-top: 10%;
+    padding-top: 15%;
     padding-bottom: 5%;
-    font-weight: 800;
+    font-weight: 900;
+    padding-right: 40%;
 }
 
 .herotext p {
     padding-bottom: 5%;
     font-weight: 500;
+    padding-right: 30%;
 }
 
 .hero-email {
-    padding-bottom: 8%;
+    padding-bottom: 5%;
     
 }
 
@@ -91,7 +97,8 @@
 }
 
 .companies-logo {
-    animation: bounce 2s forwards;
+    animation: bounce 5s forwards;
+    animation-iteration-count: infinite;
     padding-left: 95%;
 }
 
@@ -102,7 +109,7 @@
 
 .emll-space {
     padding: 15px 60px;
-    border-radius: 5px;
+    border-radius: 5px 0px 0px 5px;
     outline: none;
     border: 0;
     background-color: #052d56e3;
@@ -151,7 +158,8 @@
     font-size: 15px;
     font-weight: 600;
     padding: 15px 50px;
-    border-radius: 5px;
+    margin-left: -5px;
+    border-radius: 0px 5px 5px 0px;
     background-color: #FF4820;
     color: azure;
 }
@@ -186,14 +194,17 @@
 
 
 .header-illustration img {
-    width: 150%;
+    width: 190%;
+    padding-left: 10%;
+    padding-bottom: 20%;
 }
 
 /* lady-session */
 
 .hero-lady img {
     
-    animation: bounce 2s forwards;
+    animation: bounce 6s forwards;
+    animation-iteration-count: infinite;
     width: 50%;
 }
 
@@ -211,16 +222,27 @@
 
 /* what is GPT-3 session */
 
-.what-is {
-    padding-left: 5%;
-    padding-top: 3%;
-    color: aliceblue;
+.box-session-1 {
+    font-size: 16px;
+    color: #81AFDD;
+    background-color: #042C54;
 }
 
-.box-session-1 .we-so-opinion {
-    padding-left: 49%;
-    margin-right: 5%;
+.box-session .what-is {
+    color: #FF4820;
 }
+
+
+
+/* .box-session-1 p {
+    padding-left: 40%;
+    padding-right: 5%;
+} */
+
+
+
+
+
 
 .chat-list {
     padding: 10px;
@@ -299,8 +321,6 @@
     font-weight: 700;
     text-align: left;
 }
-
-
 
 @media screen and (max-width: 992px) {
 

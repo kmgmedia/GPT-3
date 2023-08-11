@@ -218,7 +218,12 @@ body {
     padding-left: 85%;
 }
 
-
+.all-text {
+    animation: bounce 6s forwards;
+    animation-iteration-count: infinite;
+    padding-left: 20%;
+    padding-top: 2%;
+}
 
 /* what is GPT-3 session */
 
@@ -228,25 +233,19 @@ body {
     background-color: #042C54;
 }
 
-.box-session .what-is {
-    color: #FF4820;
+.what-is {
+    color: aliceblue;
 }
 
-
-
-/* .box-session-1 p {
-    padding-left: 40%;
-    padding-right: 5%;
-} */
-
-
-
-
-
-
-.chat-list {
-    padding: 10px;
+.explore-section {
+    padding-left: 70%;
+    color: #FF8A71;
 }
+
+.we-so-opinion {
+    padding-left: 10%;
+}
+
 
 .box-session-2 h2 {
     padding-right: 65%;

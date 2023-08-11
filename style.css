@@ -91,6 +91,7 @@
 }
 
 .companies-logo {
+    animation: bounce 2s forwards;
     padding-left: 95%;
 }
 
@@ -108,10 +109,17 @@
 }
 
 .btn-sign-up {
+
+    /* This is my animation settings below */
+
     opacity: 0;
-    animation-name: bounce;
+    /* animation-name: bounce;
     animation-duration: 2s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
+
+    /* This is my animation settings below */
+
+    animation: bounce 2s forwards;
     outline: none;
     border: 0;
     box-shadow: none;
@@ -119,16 +127,23 @@
     font-size: 15px;
     font-weight: 700;
     padding: 15px 45px;
-    border-radius: 3px;
+    border-radius: 5px;
     background-color: #FF4820;
     color: azure;
 }
 
 .btn-get-started {
+
+    /* This is my animation settings below */
+
     opacity: 0;
-    animation-name: bounce;
+    /* animation-name: bounce;
     animation-duration: 2s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
+
+    /* This is my animation settings below */
+
+    animation: bounce 2s forwards;
     outline: none;
     border: 0;
     box-shadow: none;
@@ -177,6 +192,8 @@
 /* lady-session */
 
 .hero-lady img {
+    
+    animation: bounce 2s forwards;
     width: 50%;
 }
 
@@ -285,11 +302,7 @@
 
 
 
-
-
 @media screen and (max-width: 992px) {
-
-
 
 
 }

@@ -41,35 +41,37 @@
 }
 /* Buttons Animations */
 
-
-body {
+#body {
     margin: 0;
-}
-
-/* .firsr-sec{
-    display: flex;
-
-}
-
-.header-illustration img{
+    padding: 0;
     width: 100%;
-    justify-content: end;
-} */
+    height: 100%;
+    background: linear-gradient(to bottom #052d56e3);
+}
 
 .row {
     margin: 0 !important;
-    /* background-color: rgb(27, 26, 56); */
 }
 
 /* .nav-link {
     color: ;
 } */
 
+.bg-color{
+    height: 100%;
+    width: 100%;
+    background-color: #05152c;
+}
+
 .nav-link {
     padding: 13px 25px;
     font-size: 15px;
     font-weight: 700;
     margin: 32px;
+}
+
+.navbartogglerdemo03 {
+    color: #FFf;
 }
 
 /* top hero session */
@@ -85,6 +87,7 @@ body {
     padding-bottom: 5%;
     font-weight: 500;
     padding-right: 30%;
+    color: #81AFDD;
 }
 
 .hero-email {
@@ -175,23 +178,6 @@ body {
 /* end top/upper session */
 
 
-.future-is-now {
-    padding-right: 78%;
-}
-
-.improving-session {
-    padding-left: 54%;
-    /* position: relative; */
-}
-
-.improving-session p {
-    padding-left: 45%;
-    /* position: absolute;
-    height: 1px;
-    border-top: 2px solid black; */
-}
-
-
 
 .header-illustration img {
     width: 190%;
@@ -205,11 +191,16 @@ body {
     
     animation: bounce 6s forwards;
     animation-iteration-count: infinite;
-    width: 50%;
+    width: 60%;
+}
+
+.hero-lady {
+    position: relative;
 }
 
 .lady-hero-text {
-    padding-left: 72%;
+    padding-left: 40%;
+    color: #81AFDD;
 }
 
 /* bottom button session */
@@ -221,7 +212,7 @@ body {
 .all-text {
     animation: bounce 6s forwards;
     animation-iteration-count: infinite;
-    padding-left: 20%;
+    padding-left: 25%;
     padding-top: 2%;
 }
 
@@ -230,7 +221,7 @@ body {
 .box-session-1 {
     font-size: 16px;
     color: #81AFDD;
-    background-color: #042C54;
+    background-color: rgb(0, 56, 112);
 }
 
 .what-is {
@@ -238,12 +229,11 @@ body {
 }
 
 .explore-section {
+
+    font-size: 16px;
+    font-weight: 500;
     padding-left: 70%;
     color: #FF8A71;
-}
-
-.we-so-opinion {
-    padding-left: 10%;
 }
 
 
@@ -280,9 +270,9 @@ body {
 
 /* 5 Cards sessions */
 .card-columns {
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
 }
 
 .card-columns .card {
@@ -295,7 +285,7 @@ body {
 }
 
 .card-body {
-    background-color: #042C54;
+    background-color: rgb(0, 56, 112);
     color: aliceblue;
 }
 
@@ -315,11 +305,22 @@ body {
 }
 
 .a-lot h1 {
+    animation: bounce 6s forwards;
+    animation-iteration-count: infinite;
     padding-top: 20%;
-    padding-right: -20%;
+    padding-left: 20%;
     font-weight: 700;
     text-align: left;
+    color: #FFf;
 }
+
+
+.container {
+    color: #FFf;
+    background-size: 100%;
+    padding-top: 5%;
+}
+
 
 @media screen and (max-width: 992px) {
 

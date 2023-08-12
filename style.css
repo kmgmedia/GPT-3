@@ -53,6 +53,9 @@
     margin: 0 !important;
 }
 
+
+
+
 /* .nav-link {
     color: ;
 } */
@@ -70,6 +73,11 @@
     margin: 32px;
 }
 
+.nav-link {
+    color: #FFf !important;
+}
+
+
 .navbartogglerdemo03 {
     color: #FFf;
 }
@@ -77,10 +85,15 @@
 /* top hero session */
 
 .herotext h1 {
-    padding-top: 15%;
+    padding-top: 10%;
     padding-bottom: 5%;
-    font-weight: 900;
-    padding-right: 40%;
+    font-weight: 700;
+    font-size: 62px;
+    padding-right: 10%;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .herotext p {
@@ -183,14 +196,17 @@
     width: 190%;
     padding-left: 10%;
     padding-bottom: 20%;
+    animation: bounce 6s forwards;
+    animation-iteration-count: infinite;
 }
 
 /* lady-session */
 
 .hero-lady img {
     
-    animation: bounce 6s forwards;
-    animation-iteration-count: infinite;
+    /* animation: bounce 6s forwards;
+    animation-iteration-count: infinite; */
+    padding-top: 20%;
     width: 60%;
 }
 
@@ -205,9 +221,9 @@
 
 /* bottom button session */
 
-.hero-btn-session .btn {
+/* .hero-btn-session .btn {
     padding-left: 85%;
-}
+} */
 
 .all-text {
     animation: bounce 6s forwards;
@@ -228,6 +244,13 @@
     color: aliceblue;
 }
 
+.beyond {
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .explore-section {
 
     font-size: 16px;
@@ -236,6 +259,31 @@
     color: #FF8A71;
 }
 
+.request-btn {
+    animation: bounce 10s forwards;
+    animation-iteration-count: unset;
+    outline: none;
+    border: 0;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 50px;
+    margin-left: 70%;
+    border-radius: 30px;
+    background-color: #000000;
+    color: azure;
+}
+
+.request-text {
+    color: #000000;
+}
+
+.request-text p {
+    font-size: small;
+    padding-bottom: 1;
+    color: #0E0E0E;
+}
 
 .box-session-2 h2 {
     padding-right: 65%;
@@ -268,11 +316,18 @@
     color: aliceblue;
 }
 
+
+.big-btn {
+    font-size: 16px;
+    color: #81AFDD;
+    background-color: rgb(0, 56, 112);
+}
+
 /* 5 Cards sessions */
 .card-columns {
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 .card-columns .card {
@@ -305,22 +360,40 @@
 }
 
 .a-lot h1 {
-    animation: bounce 6s forwards;
-    animation-iteration-count: infinite;
     padding-top: 20%;
     padding-left: 20%;
     font-weight: 700;
     text-align: left;
-    color: #FFf;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
+.do-you-want h1 {
+    animation: bounce 6s forwards;
+    animation-iteration-count: infinite;
+    text-align: center;
+    padding-top: 10%;
+    padding-left: 40%;
+    padding-bottom: 5%;
+    font-size: 62px;
+    color: #FFf;
+    font-weight: 500;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Last footer GPT-3 */
 
 .container {
     color: #FFf;
     background-size: 100%;
     padding-top: 5%;
 }
-
+/* End footer GPT-3 */
 
 @media screen and (max-width: 992px) {
 

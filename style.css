@@ -239,6 +239,8 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 34px;
+    font-weight: 800;
 }
 
 .explore-section {
@@ -258,8 +260,8 @@
     cursor: pointer;
     font-size: 15px;
     font-weight: 600;
-    padding: 15px 50px;
-    margin-left: 70%;
+    padding: 15px 55px;
+    margin-left: 45%;
     border-radius: 30px;
     background-color: #000000;
     color: azure;
@@ -271,9 +273,16 @@
 
 
 .request-text p {
-    font-size: small;
+    font-size: 12px;
+    font-weight: 500;
     padding-bottom: 1;
-    color: #0E0E0E;
+    color: rgba(14, 14, 14, 1);
+}
+
+.request-text h5 {
+    color: rgba(0, 0, 0, 1);
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .box-session-2 h2 {
@@ -356,10 +365,10 @@
 }
 
 .a-lot h1 {
-    padding-top: 20%;
+    padding-top: 15%;
     padding-left: 20%;
-    font-weight: 700;
-    text-align: left;
+    font-weight: 800;
+    font-size: 62px;
     background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
     background-clip: text;
     -webkit-background-clip: text;

@@ -41,6 +41,39 @@
 }
 /* End Buttons Animations */
 
+
+/* Beginning FadeIn Animation */
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+animation: fadeIn 5s infinite;
+
+/* /* End FadeIn Animation */ */
+
+/* Beginning FadeOut Animation */
+@keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  animation: fadeOut 5s infinite;
+
+/* /* End Fade Animation */
+
+
+
+
+
+
+
 #body {
     margin: 0;
     padding: 0;
@@ -88,6 +121,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation: fadeIn 7s infinite;
 }
 
 .herotext p {
@@ -190,8 +224,7 @@
     width: 190%;
     padding-left: 10%;
     padding-bottom: 20%;
-    animation: bounce 6s forwards;
-    animation-iteration-count: infinite;
+    animation: fadeIn 5s infinite;
 }
 
 /* lady-session */
@@ -216,8 +249,7 @@
 /* bottom button session */
 
 .all-text {
-    animation: bounce 6s forwards;
-    animation-iteration-count: infinite;
+    animation: fadeIn 5s infinite;
     padding-left: 25%;
     padding-top: 2%;
 }
@@ -380,11 +412,10 @@
     animation-iteration-count: infinite;
     text-align: center;
     padding-top: 10%;
-    padding-left: 40%;
-    padding-bottom: 5%;
+    padding-left: 35%;
     font-size: 62px;
     color: #FFf;
-    font-weight: 500;
+    font-weight: 800;
     background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
     background-clip: text;
     -webkit-background-clip: text;

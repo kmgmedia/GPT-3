@@ -329,41 +329,43 @@ background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
     background-color: rgb(0, 56, 112);
 }
 
-/* .box-session-2 h2 {
-    padding: 2% 65% 0% 5%;
-}
-
-.box-session-2 p {
-    padding-left: 85%;
-} */
-
-.text-lg-start {
-    padding-top: 5%;
-    margin-left: 5%;
-}
-
-.active {
-    padding-top: 5%;
-}
-
-.text-lg-start h3 {
-    padding-bottom: 15%;
-}
-
-.text-lg-start p {
-    padding-bottom: 10%;
-}
-
-.container h3 {
-    color: aliceblue;
+.knowledge img h3 {
+    gap: 50%;
 }
 
 
-.big-btn {
-    font-size: 16px;
+/* Beginning of The Future is now */
+
+.improving {
     color: #81AFDD;
-    background-color: rgb(0, 56, 112);
 }
+
+.furture-is-now h2 {
+    font-size: 34px;
+    font-weight: 800;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.furture-is-now {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 138, 113, 1);
+}
+
+.improve {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.improve-beside {
+    padding-top: 4%;
+    padding-left: -2%;
+}
+
+/* End of The Future is now */
 
 .big-full-btn {
     background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.670%);

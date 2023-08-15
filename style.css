@@ -521,7 +521,8 @@ background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
 
 .a-lot h1 {
     padding-top: 15%;
-    padding-left: 20%;
+    padding-left: 17%;
+    padding-bottom: 10%;
     font-weight: 800;
     font-size: 62px;
     background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
@@ -555,6 +556,7 @@ background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
 /* End footer GPT-3 */
 
 
+/* Media queries */
 
 @media screen and (max-width: 992px) {
 

@@ -537,6 +537,7 @@ background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
     text-align: center;
     padding-top: 10%;
     padding-left: 35%;
+    padding-bottom: 6rem;
     font-size: 62px;
     color: #FFf;
     font-weight: 800;
@@ -545,6 +546,19 @@ background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.btn-btn-primary {
+    color: #FFf;
+    box-sizing: 30rem;
+    box-shadow: none;
+    font-size: larger;
+    background-color: #001e3e;
+    padding: 15px 40px;
+    border-color: #FFf;
+    cursor: pointer;
+    box-shadow: none;
+}
+
 
 /* Last footer GPT-3 */
 
